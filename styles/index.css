@@ -1,0 +1,42 @@
+body {
+  background: orange;
+  background-image: url(../assets/dog-foot.png);
+  background-position: right bottom;
+  text-align: center;
+}
+
+.box{
+  text-align: center;
+}
+
+.dog{
+  animation: 3s linear 1s infinite alternate oinu;
+  display: inline;
+}
+
+h1{
+  color: yellow;
+  background-color: brown;
+  font-size: 50;
+  text-align: left;
+  text-shadow:5px 3px 1px blue;
+}
+
+.positioned {
+  background: deeppink;
+  border-radius: 5px;
+  color: black;
+  display: inline-block;
+  font-size: 20;
+  position: static;
+  text-align: center;
+}
+
+@keyframes oinu {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
