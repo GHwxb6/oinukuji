@@ -1,46 +1,46 @@
 body {
-    text-align: center;
-    background: orange;
-  }
-  
-  .omikuji-canvas {
-    border: red 10px groove;
-    background: white;
-    width: 50%;
-    margin: auto;
-  }
+  text-align: center;
+  background: orange;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+}
 
-  .omikuji-overview {
-    font-weight: bold;
-    text-decoration: red wavy underline;
-  }
-  
-  .omikuji-body {
-    border-radius: 100px;
-    display: flex;
-    cursor: pointer;
-    font: 9rem serif;
-    background: rgba(156, 45, 45, 0.822);
-    width: 200px;
-    height: 600px;
-    margin: 20px auto;
-    padding: 30px;
-    writing-mode: vertical-rl;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .omikuji-body.animated {
-    animation: 5 alternate 100ms shake;
-  }
-  
+.omikuji-canvas {
+  border: red 10px groove;
+  background: white;
+  width: 50%;
+  margin: auto;
+}
 
-  @keyframes shake {
-    0% {
-      transform: translateX(-10px);
-    }
-    100% {
-      transform: translateX(10px);
-    }
+.omikuji-overview {
+  font-weight: bold;
+  text-decoration: red wavy underline;
+}
+
+.omikuji-body {
+  border-radius: 100px;
+  display: flex;
+  cursor: pointer;
+  font: 9rem serif;
+  background: rgba(156, 45, 45, 0.822);
+  width: 200px;
+  height: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  writing-mode: vertical-rl;
+  align-items: center;
+  justify-content: center;
+}
+
+.omikuji-body.animated {
+  animation: 5 alternate 100ms shake;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(-10px);
   }
-  
+  100% {
+    transform: translateX(10px);
+  }
+}
